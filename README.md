@@ -2,9 +2,7 @@ This project was bootstrapped with [Poetry](https://github.com/python-poetry/poe
 
 ## Introduction
 
-This is project illustrates the basic single neuron neural network demonstrated by [`giant_neural_network`](https://www.youtube.com/user/LogicGodTV) in his [Beginner Introduction to Neural Networks YouTube series](https://www.youtube.com/playlist?list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So). `giant_neural_network` demonstrates the innerworkings and details of a neural network. As such, he describes the math used for the activation function and the loss (cost) function. The merit is a deeper understanding of what neural networks are and what they're doing at each step as it learns to classify new feature sets. However, `giant_neural_network` also notes that there are machine learning libraries that handle the math once we understand what a neural network is, what its doing, and how we can effectively use it.
-
-As such, this project demonstrates his example using the [PyTorch library](https://github.com/pytorch/pytorch).
+This project is my next step to creating a more reasonable and useful neural network. YouTuber [`Jabrils`](https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg) describes, "... a simple feedforward neural network example..." which he recommends as a good first neural network to start learning about machine learning. That video can be found [here](https://www.youtube.com/watch?v=I74ymkoNTnw). The neural network itself attempts to classify whether white text or black text is better given an arbitrary background color.
 
 ## Getting Started
 
@@ -14,7 +12,7 @@ To get started, ensure Python 3.7 and Poetry are installed. After:
 
 This project does not have a production build. Obtain the source by cloning or downloading the repository. If you have git installed, run the following command:
 
-`git clone https://github.com/weiluntong/IntroNN.git`
+`git clone https://github.com/weiluntong/ColorContrastNN.git`
 
 Otherwise, there is a green button at the top right that says "Clone or download" to obtain the source code.
 
