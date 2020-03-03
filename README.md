@@ -34,7 +34,7 @@ In the project directory, you can run:
 
 ### `poetry run start`
 
-Runs the app. You can modify the python files within the `intronn` directory to see different outputs at different stages.
+Runs the app. You can modify the python files within the `colorcontrastnn` directory to see different outputs at different stages.
 
 ## Learn More
 

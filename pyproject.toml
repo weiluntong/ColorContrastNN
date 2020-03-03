@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "IntroNN"
+name = "ColorContrastNN"
 version = "0.1.0"
 description = ""
 authors = ["Weilun Tong <weiluntong.inbox@gmail.com>"]
@@ -13,7 +13,7 @@ numpy = "^1.18.1"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
-start = "intronn:main"
+start = "colorcontrastnn:main"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
